@@ -155,7 +155,7 @@ echo -e "${GREEN} XRAY : OK ! ${NC}"
 
  sleep 2
   
-rm -f amirhossein.sh && wget https://raw.githubusercontent.com/fleetvpngit/passwall/master/amirhossein.shh && chmod 777 amirhossein.sh && sh amirhossein.sh
+rm -f amirhossein.sh && wget https://raw.githubusercontent.com/fleetvpngit/passwall/main/amirhossein.sh && chmod 777 amirhossein.sh && sh amirhossein.sh
 
 fi
 

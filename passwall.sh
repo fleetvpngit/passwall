@@ -39,7 +39,7 @@ if [ "$SNNAP" == "SNAPSHOT" ]; then
 
 echo -e "${YELLOW} SNAPSHOT Version Detected ! ${NC}"
 
-rm -f passwalls.sh && wget https://raw.githubusercontent.com/fleetvpngit/passwall/master/passwalls.sh && chmod 777 passwalls.sh && sh passwalls.sh
+rm -f passwalls.sh && wget https://raw.githubusercontent.com/fleetvpngit/passwall/main/passwalls.sh && chmod 777 passwalls.sh && sh passwalls.sh
 
 exit 1
 
@@ -223,7 +223,7 @@ echo -e "${GREEN} Xray OK ! ${NC}"
 
 echo -e "${YELLOW} Installing Xray On Temp Space ! ${NC}"
            
-rm -f amirhossein.sh && wget https://raw.githubusercontent.com/fleetvpngit/passwall/master/amirhossein.sh && chmod 777 amirhossein.sh && sh amirhossein.sh
+rm -f amirhossein.sh && wget https://raw.githubusercontent.com/fleetvpngit/passwall/main/amirhossein.sh && chmod 777 amirhossein.sh && sh amirhossein.sh
 
 fi
 
