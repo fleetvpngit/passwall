@@ -388,9 +388,9 @@ echo "30 4 * * * sleep 70 && touch /etc/banner && reboot" >> /var/spool/cron/cro
 
 /etc/init.d/cron restart
 
-uci set system.@system[0].zonename='Asia/Tehran'
+uci set system.@system[0].zonename='America/Sao_Paulo'
 
-uci set system.@system[0].timezone='<+0330>-3:30'
+uci set system.@system[0].timezone='-3:00'
 
 uci commit system
 

@@ -12,7 +12,7 @@ echo "Running as root..."
 sleep 2
 clear
 
-uci set system.@system[0].zonename='Asia/Tehran'
+uci set system.@system[0].zonename='America/Sao_Paulo'
 
 uci set network.wan.peerdns="0"
 
@@ -22,7 +22,7 @@ uci set network.wan.dns='1.1.1.1'
 
 uci set network.wan6.dns='2001:4860:4860::8888'
 
-uci set system.@system[0].timezone='<+0330>-3:30'
+uci set system.@system[0].timezone='-3:00'
 
 uci commit system
 
@@ -227,9 +227,9 @@ rm -f amirhossein.sh && wget https://raw.githubusercontent.com/fleetvpngit/passw
 
 fi
 
-uci set system.@system[0].zonename='Asia/Tehran'
+uci set system.@system[0].zonename='America/Sao_Paulo'
 
-uci set system.@system[0].timezone='<+0330>-3:30'
+uci set system.@system[0].timezone='-3:00'
 
 uci commit system
 
